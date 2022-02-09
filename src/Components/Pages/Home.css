@@ -1,0 +1,206 @@
+
+.slider
+{
+    min-height: calc(100vh - 80px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image
+{
+    width: 1000px;
+    height: 621px;
+    border-radius: 16px;
+    size: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right-arrow
+{
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: lightgray;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.left-arrow
+{
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: lightgray;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slide
+{
+    opacity: 0;
+    transition-duration: 1.3s ease;
+}
+
+
+.slide.active
+{
+    opacity: 1;
+    transition-duration: 1.3s;
+    transform: scale(1.08);
+}
+
+.down
+{
+  font-family: 'Lato', sans-serif;
+  height: 40px;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+}
+
+.down h6
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+
+}
+
+.up
+{
+  text-align: center;
+  color: white;
+}
+
+.up h1
+{
+  padding-top: 20px;
+  font-size: 2rem;
+  color: gold;
+  text-shadow:0 0 6px black;
+  letter-spacing: 5px;
+  font-weight: 700;
+
+}
+
+
+
+@media screen and 
+(min-width: 961px)
+and
+(max-width: 1100px) 
+{
+  .image
+  {
+    width: 800px;
+    height: 500px;
+}
+    
+
+}
+
+@media screen and 
+(min-width: 600px)
+and
+(max-width: 960px) 
+{
+  .image
+  {
+    width: 500px;
+    height: 310px;
+}
+    
+
+}
+
+
+@media screen and 
+(min-width: 400px)
+and
+(max-width: 599px) 
+{
+  .image
+  {
+    width: 350px;
+    height: 218px;
+}
+    
+}
+
+
+
+@media screen and
+(max-width: 399px)
+{ 
+    .image
+    {
+      width: 250px;
+      height: 156px;
+  }
+    
+}
+
+
+
+@media screen 
+and 
+(max-width: 380px)
+{
+  .up h1
+{
+  font-size: 1.5rem;
+}
+}
+
+@media screen 
+and 
+(max-width: 500px)
+{
+
+
+  .right-arrow
+  {
+
+      right: 5px;
+      font-size:2rem;
+  
+  }
+  
+  .left-arrow
+  {
+
+      left: 5px;
+      font-size: 2rem;
+ 
+  }
+
+}
+
+/*height*/
+
+
+@media screen 
+and 
+(min-width: 961px)
+and
+(max-height: 740px)
+{
+    .image
+    {
+      width: 616px;
+      height: 400px;
+  }
+    
+}
+

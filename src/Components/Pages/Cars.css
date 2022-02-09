@@ -1,0 +1,321 @@
+.cars
+{
+    align-items: center;
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 40px;
+
+}
+
+
+.title
+{
+    margin-bottom: 40px ;
+    background-color:lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    padding: 10px 15px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 9px 5px rgba(0,0,0,0.9); 
+    box-shadow: 0px 0px 9px 5px rgba(0,0,0,0.9);
+    color: black;
+
+}
+
+.title h6
+{
+
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.title h3
+{
+   
+    font-size: 1.2rem;
+    color: red;
+    letter-spacing: 2px;
+
+}
+
+
+.moto
+{
+    display: flex;
+    padding-bottom: 40px;
+
+}
+
+.ferrari
+{
+    text-align: center;
+    width: 33%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+ 
+}
+
+
+
+.mustang
+{
+    text-align: center;
+    width: 33%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+
+}
+
+.lambo
+{
+    text-align: center;
+    width: 33%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+
+.img-st
+{
+    width: 5em;
+    height: 5em;
+    background-image: url('../../images/fer1.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.img-st:hover
+{
+    transform: scale(0.9);
+
+}
+
+.img-nd
+{
+    width: 5em;
+    height: 5em;
+    background-image: url('../../images/mus1.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.img-nd:hover
+{
+    transform: scale(0.9);
+}
+
+.img-rd
+{
+    width: 5em;
+    height: 5em;
+    background-image: url('../../images/lam1.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.img-rd:hover
+{
+    transform: scale(0.9);
+}
+
+.description
+{
+    margin-top: 10px;
+    font-size: 1rem;
+    
+}
+
+.description h1
+{
+    letter-spacing: 2px;
+    font-style:initial;
+    color:gold;
+}
+
+.description h2
+{
+    color: white;
+}
+
+
+.description h3
+{
+    color: red;
+}
+
+
+table
+{
+    
+    margin-top: 20px;
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0px 0px 9px 5px rgba(0,0,0,0.9); 
+    box-shadow: 0px 0px 9px 5px rgba(0,0,0,0.9);
+    background-color:lightgray;
+    border-radius: 3px;
+
+}
+
+td
+{
+    border: 1px dotted black;
+}
+
+
+th
+{
+    border: 1px dotted black;
+}
+
+
+
+
+@media screen 
+and 
+(min-width: 351px)
+and
+(max-width: 960px) 
+{
+
+    .cars
+{
+    align-items: center;
+    font-size: 3rem;
+    margin: 0;
+    height: auto;
+}
+
+
+
+.moto
+{
+    display: block;
+
+}
+
+
+.ferrari,
+.lambo,
+.mustang
+{
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.img-nd,
+.img-rd
+{ 
+    margin-top: 50px
+}
+
+table
+{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0px 0px 9px 5px rgba(0,0,0,0.9); 
+    box-shadow: 0px 0px 9px 5px rgba(0,0,0,0.9);
+    background-color:lightgray;
+    border-radius: 3px;
+}
+
+
+}
+
+@media screen and (max-width: 350px) 
+
+{
+   
+    .cars
+{
+    align-items: center;
+    font-size: 3rem;
+    margin: 0;
+    height: auto;
+}
+
+
+
+.moto
+{
+    display: block;
+
+}
+
+.title,
+.ferrari,
+.lambo,
+.mustang
+{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.img-st
+{
+    width: 230px;
+    height: 230px;
+}
+
+.img-nd,
+.img-rd
+{ 
+    width: 230px;
+    height: 230px;
+    margin-top: 50px
+}
+
+table
+{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0px 0px 9px 5px rgba(0,0,0,0.9); 
+    box-shadow: 0px 0px 9px 5px rgba(0,0,0,0.9);
+    background-color:lightgray;
+    border-radius: 3px;
+}
+
+
+.title h6
+{
+
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.title h3
+{ 
+    font-size: 1.1rem;
+}
+}
+
+

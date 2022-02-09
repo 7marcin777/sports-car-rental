@@ -1,0 +1,142 @@
+.ques-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ans {
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    background-color: rgba(247, 202, 24, 0.6);
+    border-radius: 10px;
+}
+
+.ques-container h1 {
+    display: inline-block;
+    font-size: 1.9rem;
+    text-align: left;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.ques-container h2 {
+    font-size: 2rem;
+    padding-bottom: 10px;
+    color: red;
+    text-align: center;
+}
+
+.btn-qs {
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    margin-top: 14px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 820px) and (max-width: 1150px) {
+    .ques-container {
+        width: 800px;
+    }
+
+    .ques-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .ques-container h2 {
+        font-size: 1.6rem;
+    }
+
+    .btn-qs {
+        width: 25px;
+        height: 25px;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (min-width: 621px) and (max-width: 819px) {
+    .ques-container {
+        width: 600px;
+    }
+
+    .ques-container h1 {
+        font-size: 1.15rem;
+    }
+
+    .ques-container h2 {
+        font-size: 1.2rem;
+    }
+
+    .btn-qs {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 620px) {
+    .ques-container {
+        width: 480px;
+    }
+
+    .ques-container h1 {
+        font-size: 0.9rem;
+    }
+
+    .ques-container h2 {
+        font-size: 1rem;
+    }
+
+    .btn-qs {
+        width: 15px;
+        height: 15px;
+        margin-top: 11px;
+    }
+}
+
+@media screen and (min-width: 370px) and (max-width: 499px) {
+    .ques-container {
+        width: 350px;
+    }
+
+    .ques-container h1 {
+        font-size: 0.65rem;
+    }
+
+    .ques-container h2 {
+        font-size: 0.7rem;
+        padding-bottom: 10px;
+    }
+
+    .btn-qs {
+        width: 15px;
+        height: 15px;
+        margin-top: 9px;
+    }
+}
+
+@media screen and (max-width: 369px) {
+    .ques-container {
+        width: 260px;
+    }
+
+    .ques-container h1 {
+        font-size: 0.45rem;
+    }
+
+    .ques-container h2 {
+        font-size: 0.5rem;
+    }
+
+    .btn-qs {
+        width: 15px;
+        height: 15px;
+        margin-top: 8px;
+    }
+}
